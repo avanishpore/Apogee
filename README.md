@@ -88,10 +88,6 @@ Some things the data shows:
 - **Country means where the launch site is, not who launched it.** Soviet launches from Baikonur count as Kazakhstan. A few locations that don't end in a country name (like "New Mexico" or "Yellow Sea") are mapped to a country in `COUNTRY_FIXES`. "Pacific Ocean" is Sea Launch, a multinational company that launched from a floating platform, so it's shown as its own entry.
 - **One reusable counting function:** `count_by()` counts launches by any category (year, country, company, rocket, decade), so the program doesn't repeat the same loop in five places.
 
-## How it was made
-
-Made with the assistance of AI (Claude by Anthropic).
-
 ## Data source
 
 Space Missions dataset, [Maven Analytics](https://mavenanalytics.io/data-playground/space-missions), public domain. Covers launches from 1957 through August 2022.
